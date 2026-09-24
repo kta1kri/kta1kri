@@ -12,6 +12,7 @@ project's responsible-disclosure channel. Focus areas:
 #### Profiles
 - **Patchstack** — [researcher profile](https://patchstack.com/database/researchers/25384307-e186-41dc-be75-df2e978c1ff5) (published advisory: *Simple Cloudflare Turnstile ≤ 1.42.1 — Content Injection*, CVSS 6.5)
 - **Intigriti** — [profile](https://app.intigriti.com/profile/kta1kri)
+- **HackerOne** — [profile](https://hackerone.com/kta1kri)
 
 #### Merged security fixes (public)
 - **[chirpstack/chirpstack #1024](https://github.com/chirpstack/chirpstack/pull/1024)** — restore a missing `ValidateGatewaysAccess` authorization check in the gateway API
