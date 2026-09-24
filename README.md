@@ -24,6 +24,12 @@ project's responsible-disclosure channel. Focus areas:
 I also file coordinated-disclosure reports to many other projects (kept private while
 under embargo) and run small security labs / PoCs for CI/CD and IaC issue patterns.
 
+#### Disclosure approach
+I follow coordinated vulnerability disclosure: reports go to the project's designated
+security channel first, I honor requested embargoes (typically up to 90 days), and I
+publish details only after a fix ships or the embargo ends. Reports include a concrete
+proof-of-concept and a suggested fix.
+
 #### Support
 If my work has helped your project, sponsorship funds continued security research and
 responsible disclosure. Thank you 🙏
