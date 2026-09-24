@@ -14,6 +14,9 @@ project's responsible-disclosure channel. Focus areas:
 - **Intigriti** — [profile](https://app.intigriti.com/profile/kta1kri)
 - **HackerOne** — [profile](https://hackerone.com/kta1kri)
 
+#### Projects
+- **[tfsensitive](https://github.com/kta1kri/tfsensitive)** — a Go (`go/ast`) linter that catches a silent Terraform SDKv2 footgun: a `Sensitive: true` field nested inside a Computed-only `TypeList`/`TypeSet`, which SDKv2 drops so the secret lands in plan/state. MIT.
+
 #### Merged security fixes (public)
 - **[chirpstack/chirpstack #1024](https://github.com/chirpstack/chirpstack/pull/1024)** — restore a missing `ValidateGatewaysAccess` authorization check in the gateway API
 - **[datalayer/jupyter-mcp-server #453](https://github.com/datalayer/jupyter-mcp-server/pull/453)** — bind the streamable-HTTP server to loopback by default and decouple CORS
