@@ -10,10 +10,10 @@ Independent security researcher — coordinated vulnerability disclosure & secur
 
 ### Certifications
 
-- CompTIA PenTest+, CySA+, Security+
-- Registered Information Security Specialist (RISS) — Japan (IPA)
 - Associate of (ISC)² — passed the CISSP examination
+- Registered Information Security Specialist (RISS) — Japan (IPA)
 - Network Specialist — Japan (IPA)
+- CompTIA PenTest+, CySA+, Security+
 
 ### Profiles
 
