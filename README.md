@@ -1,40 +1,18 @@
-### Hi, I'm kta1kri 👋
+# kta1kri
 
-Independent **security researcher** working on **coordinated vulnerability disclosure**.
+Independent security researcher — coordinated vulnerability disclosure & security audits.
 
-I audit open-source projects and self-hosted software and report issues through each
-project's responsible-disclosure channel. Focus areas:
+### Selected findings
 
-- **Authorization & access control** — broken access control, IDOR, missing permission checks
-- **Web & API security** — SSRF, injection, auth/scope bypass, webhook/IPN authenticity
-- **Secrets & supply chain** — secret exposure in tooling/IaC, insecure defaults in CI/build
+- **[CVE-2025-66455](https://github.com/InternLM/lmdeploy/security/advisories/GHSA-2vh9-42vm-xmv2)** — critical unauthenticated RCE in InternLM/LMDeploy
+- **[CVE-2026-63189](https://github.com/n4ze3m/dialoqbase/security/advisories/GHSA-2448-c4f7-4crm)** — critical unauthenticated path traversal in dialoqbase
+- **[GHSA-2w6q-wgc8-q743](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-2w6q-wgc8-q743)** — critical authentication fail-open in SiYuan
 
-#### Profiles
-- **Patchstack** — [researcher profile](https://patchstack.com/database/researchers/25384307-e186-41dc-be75-df2e978c1ff5) (published advisory: *Simple Cloudflare Turnstile ≤ 1.42.1 — Content Injection*, CVSS 6.5)
-- **Intigriti** — [profile](https://app.intigriti.com/profile/kta1kri)
-- **HackerOne** — [profile](https://hackerone.com/kta1kri)
+### Credentials & profiles
 
-#### Projects
-- **[tfsensitive](https://github.com/kta1kri/tfsensitive)** — a Go (`go/ast`) linter that catches a silent Terraform SDKv2 footgun: a `Sensitive: true` field nested inside a Computed-only `TypeList`/`TypeSet`, which SDKv2 drops so the secret lands in plan/state. MIT.
+- Associate of (ISC)² — passed the CISSP examination
+- [HackerOne](https://hackerone.com/kta1kri) · [Patchstack](https://patchstack.com/database/researchers/25384307-e186-41dc-be75-df2e978c1ff5) · [Intigriti](https://app.intigriti.com/profile/kta1kri) · GitHub Security Advisories
 
-#### Merged security fixes (public)
-- **[chirpstack/chirpstack #1024](https://github.com/chirpstack/chirpstack/pull/1024)** — restore a missing `ValidateGatewaysAccess` authorization check in the gateway API
-- **[datalayer/jupyter-mcp-server #453](https://github.com/datalayer/jupyter-mcp-server/pull/453)** — bind the streamable-HTTP server to loopback by default and decouple CORS
-- **[aiven/aiven-client #480](https://github.com/aiven/aiven-client/pull/480)** — restrict file mode on downloaded `service.key` / `service.cert`
-- **[dmpe/terraform-provider-storagegrid #57](https://github.com/dmpe/terraform-provider-storagegrid/pull/57)** — mark `secret_access_key` as `Sensitive` on the S3-key resources (prevents secret exposure in plan/state)
-- **[kamailio/kamailio-credits #11](https://github.com/kamailio/kamailio-credits/pull/11)** — credited for a security report
+### Contact
 
-I also file coordinated-disclosure reports to many other projects (kept private while
-under embargo) and run small security labs / PoCs for CI/CD and IaC issue patterns.
-
-#### Disclosure approach
-I follow coordinated vulnerability disclosure: reports go to the project's designated
-security channel first, I honor requested embargoes (typically up to 90 days), and I
-publish details only after a fix ships or the embargo ends. Reports include a concrete
-proof-of-concept and a suggested fix.
-
-#### Support
-If my work has helped your project, sponsorship funds continued security research and
-responsible disclosure. Thank you 🙏
-
-_For security matters, please use the relevant project's security channel._
+kta1kri@gmail.com
