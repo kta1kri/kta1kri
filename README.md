@@ -19,7 +19,7 @@ Independent security researcher — coordinated vulnerability disclosure & secur
 
 ### Profiles
 
-[HackerOne](https://hackerone.com/kta1kri) · [Patchstack](https://patchstack.com/database/researchers/25384307-e186-41dc-be75-df2e978c1ff5) · [Intigriti](https://app.intigriti.com/profile/kta1kri) · GitHub Security Advisories
+[HackerOne](https://hackerone.com/kta1kri) · [Patchstack](https://patchstack.com/database/researchers/25384307-e186-41dc-be75-df2e978c1ff5) · [Intigriti](https://app.intigriti.com/profile/kta1kri) · [GitHub](https://github.com/kta1kri)
 
 ### Contact
 
