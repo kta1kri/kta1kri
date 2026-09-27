@@ -10,16 +10,14 @@ Independent security researcher — coordinated vulnerability disclosure & secur
 
 ### Certifications
 
-- CompTIA PenTest+
+- CompTIA PenTest+, CySA+, Security+
 - Registered Information Security Specialist (RISS) — Japan (IPA)
 - Associate of (ISC)² — passed the CISSP examination
-- CompTIA CySA+
 - Network Specialist — Japan (IPA)
-- CompTIA Security+
 
 ### Profiles
 
-[HackerOne](https://hackerone.com/kta1kri) · [Patchstack](https://patchstack.com/database/researchers/25384307-e186-41dc-be75-df2e978c1ff5) · [Intigriti](https://app.intigriti.com/profile/kta1kri) · [GitHub](https://github.com/kta1kri)
+[HackerOne](https://hackerone.com/kta1kri) · [Patchstack](https://patchstack.com/database/researchers/25384307-e186-41dc-be75-df2e978c1ff5) · [Intigriti](https://app.intigriti.com/profile/kta1kri)
 
 ### Contact
 
